@@ -52,5 +52,6 @@ if __name__ == "__main__":
             quit()
         if count < 0:
             print('Too Many Failed Attempts... Exiting')
+            quit()
         count-=1
     
